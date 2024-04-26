@@ -26,17 +26,8 @@ public class checkDouble{
 	    	System.exit(1);
 	    }
 	    
-	    System.out.print("average = "+((d1+d2)/2));
-	    
-	   
-	   
-	    
-	    
+	    System.out.print("average = "+((d1+d2)/2));    
 		
 	}
 
-	private static boolean hasNextDouble(double d1) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 }

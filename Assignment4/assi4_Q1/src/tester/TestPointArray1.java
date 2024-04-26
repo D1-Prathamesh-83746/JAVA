@@ -26,7 +26,6 @@ public final class TestPointArray1 {
 
 		Point2D[] points = new Point2D[size];
 		
-		points[0]=new Point2D(2, 1);
 		for(int i=0;i<size;i++) {
 			System.out.println("enter Point-"+i+" x and y coordinates");
 			Scanner s=new Scanner(System.in);

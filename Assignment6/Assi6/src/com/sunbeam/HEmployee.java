@@ -21,12 +21,20 @@ public class HEmployee extends Employee {
 	@Override
 	public void display() {
 		super.display();
+	}
+	
+	@Override
+	public void calculateweeklyPay() {
 		if(hrs>40) {
 			double sal=((wage*40)+((wage*1.5)*(hrs-40)));
 			System.out.println("Total Salary - "+sal);
 		}
 		else {
 		System.out.println("Total Salary -"+(hrs*wage));
-		}
+		}	
+	}
+	@Override
+	public String toString() {
+		return super.toString();
 	}
 }

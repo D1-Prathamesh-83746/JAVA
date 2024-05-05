@@ -22,7 +22,6 @@ public class CEmployee extends Employee {
 	@Override
 	public void display() {
 		super.display();
-		System.out.println("Commision - "+(commisionRates*grossSales)/100);
 	}
 	
 	public Double getCommisionRates() {
@@ -31,5 +30,15 @@ public class CEmployee extends Employee {
 	
 	public int getGrossSales() {
 		return grossSales;
+	}
+	
+	@Override
+	public void calculateweeklyPay() {
+		System.out.println("Commision - "+(commisionRates*grossSales)/100);
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
 	}
 }

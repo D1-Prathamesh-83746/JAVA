@@ -58,11 +58,6 @@ public abstract class Player {
 	public int getMatchesPlayed() {
 		return matchesPlayed;
 	}
-
-	protected abstract int getRun();
-
-
-	protected abstract int getWicket();
 	
 	public void display() {
 		System.out.println("NAME - "+name);

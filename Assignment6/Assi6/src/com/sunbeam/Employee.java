@@ -2,7 +2,7 @@ package com.sunbeam;
 
 import java.util.Scanner;
 
-public class Employee {
+abstract public class Employee {
 	private String firstName;
 	private String lastName;
 	private String SSN;
@@ -25,4 +25,9 @@ public class Employee {
 		System.out.println("LASTNAME - "+lastName);
 		System.out.println("SSN - "+SSN);
 	}
+	@Override
+	public String toString() {
+		return "FIRSTNAME - "+firstName+"LASTNAME - "+lastName+"SSN - "+SSN;
+	}
+	abstract public void calculateweeklyPay();
 }

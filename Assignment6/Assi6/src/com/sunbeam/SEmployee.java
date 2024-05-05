@@ -18,6 +18,15 @@ public class SEmployee extends Employee {
 	@Override
 	public void display() {
 		super.display();
-		System.out.println("SALARY - "+weeklySalary);
+	}
+	
+	@Override
+	public void calculateweeklyPay() {
+		System.out.println("SALARY - "+weeklySalary);	
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
 	}
 }

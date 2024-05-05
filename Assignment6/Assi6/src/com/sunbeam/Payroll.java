@@ -48,6 +48,8 @@ public class Payroll {
 			case 5:
 				for(int i=0;i<size;i++) {
 					e[i].display();
+					e[i].calculateweeklyPay();
+					System.out.println("-----------------");
 				}
 				break;
 			}

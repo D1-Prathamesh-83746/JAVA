@@ -19,6 +19,15 @@ public class BSCEmployee extends CEmployee {
 	public void display() {
 		super.display();
 		System.out.println("reward - "+(base_salary*0.1));
+	}
+	
+	@Override
+	public void calculateweeklyPay() {
 		System.out.println("Total Salary - "+(base_salary*1.1));
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
 	}
 }

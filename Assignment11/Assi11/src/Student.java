@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Student implements Comparable<Student> {
+public class Student implements Comparator<Student> {
 	private int rollno;
 	private String name;
 	private Double marks;
